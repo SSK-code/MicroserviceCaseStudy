@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.abdul.library.books.entity.Book;
-import com.abdul.library.books.pojo.SubcriberBookIdPk;
-import com.abdul.library.books.pojo.SubscriptionDto;
-import com.abdul.library.books.service.BookService;
+import com.anand.library.books.entity.Book;
+import com.anand.library.books.pojo.SubcriberBookIdPk;
+import com.anand.library.books.pojo.SubscriptionDto;
+import com.anand.library.books.service.BookService;
 
 @RestController
 public class BookController {

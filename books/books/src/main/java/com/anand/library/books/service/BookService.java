@@ -11,12 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.abdul.library.books.entity.Book;
-import com.abdul.library.books.feign.SubscriptionClient;
-import com.abdul.library.books.pojo.SubcriberBookIdPk;
-import com.abdul.library.books.pojo.Subscription;
-import com.abdul.library.books.pojo.SubscriptionDto;
-import com.abdul.library.books.repository.BookRepository;
+import com.anand.library.books.entity.Book;
+import com.anand.library.books.feign.SubscriptionClient;
+import com.anand.library.books.pojo.SubcriberBookIdPk;
+import com.anand.library.books.pojo.Subscription;
+import com.anand.library.books.pojo.SubscriptionDto;
+import com.anand.library.books.repository.BookRepository;
 
 import feign.FeignException;
 
